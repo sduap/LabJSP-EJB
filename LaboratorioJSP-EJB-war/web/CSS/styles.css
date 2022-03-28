@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color:#1f1235;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 2fr 7fr;   
+}
+
+header{
+    justify-self: center;
+    align-self: end;
+}
+
+main{
+    justify-self: center;
+    align-self: center;
+}
+
+section{  
+    background: lightblue;
+    border: 0.2rem solid black;
+    border-radius: 0.7rem;
+}
+
+form{
+    max-width: 50vw;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+input{
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
+    padding: 0 0.4rem
+}
+
+.button{
+    margin-top: 2rem;
+    height: 2rem;
+    width: 6rem;
+    text-transform: uppercase;
+}
+
+
+
+
+
